@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.cpp
+kmeans.h
+D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.h
+cstdlib
+-
+limits
+-
+sstream
+-
+cmath
+-
+iostream
+-
+
+D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.h
+fstream
+-
+list
+-
+vector
+-
+
+D:/Google Drive/Projects/Programs/GitHub/kmeans/main.cpp
+iostream
+-
+kmeans.h
+D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.h
+
