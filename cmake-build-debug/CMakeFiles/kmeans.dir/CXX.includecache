@@ -11,19 +11,21 @@ kmeans.h
 D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.h
 cstdlib
 -
-limits
--
-sstream
--
 cmath
 -
 iostream
+-
+limits
+-
+sstream
 -
 
 D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.h
 fstream
 -
 list
+-
+string
 -
 vector
 -
