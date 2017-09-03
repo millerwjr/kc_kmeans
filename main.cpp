@@ -22,5 +22,4 @@ int main() {
     km.print_centroids(file_out, ',');
     km.burst_clusters("cl_", ',');
 
-
 }
