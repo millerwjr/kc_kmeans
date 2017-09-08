@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(kmeans)
+project(kc_kmeans)
 
 set(CMAKE_CXX_STANDARD 11)
 
