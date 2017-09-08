@@ -16,7 +16,7 @@ int main() {
     file_out.open("centroids.dat");
 
 
-    kmeans_set km(input, ',');
+    kc::kmeans_set km(input, ',');
     km.compute_centroids(5);
 
     km.print_centroids(file_out, ',');

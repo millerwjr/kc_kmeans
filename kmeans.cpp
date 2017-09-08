@@ -14,7 +14,7 @@
 // PUBLIC CONSTRUCTORS
 
 // Import points from file with specified delimiter into a temporary list - calls import_points()
-kmeans_set::kmeans_set(std::ifstream & input_file, char delimiter) :
+kc::kmeans_set::kmeans_set(std::ifstream & input_file, char delimiter) :
         epsilon(0),
         hard_limit(std::numeric_limits<unsigned int>::max()) {
     std::string line;
@@ -39,7 +39,7 @@ kmeans_set::kmeans_set(std::ifstream & input_file, char delimiter) :
 
 
 // Import points from list on construction
-kmeans_set::kmeans_set(std::list<std::vector<double>> & point_list) :
+kc::kmeans_set::kmeans_set(std::list<std::vector<double>> & point_list) :
         epsilon(0),
         hard_limit(std::numeric_limits<unsigned int>::max()) {
     this->import_points(point_list);
@@ -50,7 +50,7 @@ kmeans_set::kmeans_set(std::list<std::vector<double>> & point_list) :
 // PRIVATE FUNCTIONS
 
 // Primary point import function - Assures dimensional integrity by comparing all intake to the first point in the [points] list
-void kmeans_set::import_points(std::list<std::vector<double>> & point_list) {
+void kc::kmeans_set::import_points(std::list<std::vector<double>> & point_list) {
     for (auto point_list_iter = point_list.begin(); point_list_iter != point_list.end(); ++point_list_iter) {
         point_wrapper new_point;
         new_point.point = *point_list_iter;
@@ -72,7 +72,7 @@ void kmeans_set::import_points(std::list<std::vector<double>> & point_list) {
 
 
 
-void kmeans_set::print_point(std::ostream & output, std::vector<double> vec, char delim) {
+void kc::kmeans_set::print_point(std::ostream & output, std::vector<double> vec, char delim) {
     for (auto iter = vec.begin(); iter != vec.end(); ++iter) {
         if (iter != vec.begin()) { output << delim; }
         output << *iter;
@@ -81,7 +81,7 @@ void kmeans_set::print_point(std::ostream & output, std::vector<double> vec, cha
 
 
 
-void kmeans_set::move_point_to_nearest_cluster() {
+void kc::kmeans_set::move_point_to_nearest_cluster() {
     for (auto universe_iter = this->universe.begin(); universe_iter != this->universe.end(); ++universe_iter) {
         for (auto cluster_iter = this->clusters.begin(); cluster_iter != this->clusters.end(); ++cluster_iter) {
             if (calculate_distance(universe_iter->point, cluster_iter->centroid) < calculate_distance(universe_iter->point, universe_iter->cluster_pointer->centroid)) {
@@ -98,7 +98,7 @@ void kmeans_set::move_point_to_nearest_cluster() {
 
 
 
-double kmeans_set::calculate_distance(std::vector<double> & a_vec, std::vector<double> & b_vec) {
+double kc::kmeans_set::calculate_distance(std::vector<double> & a_vec, std::vector<double> & b_vec) {
     auto b_iter = b_vec.begin();
     double r_val = 0;
     for (auto a_iter = a_vec.begin(); a_iter != a_vec.end(); ++a_iter, ++b_iter) {
@@ -109,7 +109,7 @@ double kmeans_set::calculate_distance(std::vector<double> & a_vec, std::vector<d
 
 
 
-double kmeans_set::recompute_centroids() {
+double kc::kmeans_set::recompute_centroids() {
 
     // The following is used for delta calculation
     std::list<std::vector<double>> old_centroids;
@@ -150,7 +150,7 @@ double kmeans_set::recompute_centroids() {
 
 
 
-bool kmeans_set::check_move_state() {
+bool kc::kmeans_set::check_move_state() {
     for (auto cluster_iter = this->clusters.begin(); cluster_iter != this->clusters.end(); ++cluster_iter) {
         if (cluster_iter->move_flag) { return true; }
     }
@@ -159,7 +159,7 @@ bool kmeans_set::check_move_state() {
 
 
 
-void kmeans_set::report_point_move(std::ostream & output, std::vector<double> point, cluster_wrapper & fm, cluster_wrapper & to) {
+void kc::kmeans_set::report_point_move(std::ostream & output, std::vector<double> point, cluster_wrapper & fm, cluster_wrapper & to) {
     output << "\nMoving (";
     print_point(output, point, ',');
     output << ")   from cluster: " << &fm << "   to cluster: " << &to;
@@ -167,7 +167,7 @@ void kmeans_set::report_point_move(std::ostream & output, std::vector<double> po
 
 
 
-void kmeans_set::report_universe_state(std::ostream & output, double d1, double d2) {
+void kc::kmeans_set::report_universe_state(std::ostream & output, double d1, double d2) {
     output << "\n\n[Iteration Complete]";
     output << "\n    delta: " << fabs(d2 - d1);
     unsigned int ct = 0;
@@ -185,7 +185,7 @@ void kmeans_set::report_universe_state(std::ostream & output, double d1, double 
 // PUBLIC FUNCTIONS
 
 // Primary algorithm
-void kmeans_set::compute_centroids(unsigned int k) {
+void kc::kmeans_set::compute_centroids(unsigned int k) {
     // Error handling
     if (this->universe.empty() || k == 0) {   // Exits program if no points have been imported or if no centroids are requested
         return;
@@ -238,7 +238,7 @@ void kmeans_set::compute_centroids(unsigned int k) {
 
 
 
-void kmeans_set::print_centroids(std::ostream & output, char delimiter) {
+void kc::kmeans_set::print_centroids(std::ostream & output, char delimiter) {
     for (auto cluster_iter = this->clusters.begin(); cluster_iter != this->clusters.end(); ++cluster_iter) {
         if (cluster_iter != this->clusters.begin()) {
             output << "\n";
@@ -249,7 +249,7 @@ void kmeans_set::print_centroids(std::ostream & output, char delimiter) {
 
 
 
-void kmeans_set::burst_clusters(std::string str, char delimiter) {
+void kc::kmeans_set::burst_clusters(std::string str, char delimiter) {
     unsigned int ct = 0;
     for (auto cluster_iter = this->clusters.begin(); cluster_iter != this->clusters.end(); ++cluster_iter) {
         std::stringstream ss;   // Avoids using std::to_string() in case compiling with older minGW
