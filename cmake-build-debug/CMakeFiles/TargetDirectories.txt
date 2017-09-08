@@ -1,3 +1,3 @@
-D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/CMakeFiles/kmeans.dir
-D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/CMakeFiles/kmeans.dir
+D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/CMakeFiles/rebuild_cache.dir

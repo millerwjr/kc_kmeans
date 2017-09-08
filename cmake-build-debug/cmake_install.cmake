@@ -1,4 +1,4 @@
-# Install script for directory: D:/Google Drive/Projects/Programs/GitHub/kmeans
+# Install script for directory: D:/Google Drive/Projects/Programs/GitHub/kc_kmeans
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

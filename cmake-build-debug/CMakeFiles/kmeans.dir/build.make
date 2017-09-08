@@ -42,10 +42,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Google Drive\Projects\Programs\GitHub\kmeans"
+CMAKE_SOURCE_DIR = "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Google Drive\Projects\Programs\GitHub\kmeans\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kmeans.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/kmeans.dir/flags.make
 
 CMakeFiles/kmeans.dir/main.cpp.obj: CMakeFiles/kmeans.dir/flags.make
 CMakeFiles/kmeans.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\Projects\Programs\GitHub\kmeans\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kmeans.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\kmeans.dir\main.cpp.obj -c "D:\Google Drive\Projects\Programs\GitHub\kmeans\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kmeans.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\kmeans.dir\main.cpp.obj -c "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\main.cpp"
 
 CMakeFiles/kmeans.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kmeans.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\Projects\Programs\GitHub\kmeans\main.cpp" > CMakeFiles\kmeans.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\main.cpp" > CMakeFiles\kmeans.dir\main.cpp.i
 
 CMakeFiles/kmeans.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kmeans.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\Projects\Programs\GitHub\kmeans\main.cpp" -o CMakeFiles\kmeans.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\main.cpp" -o CMakeFiles\kmeans.dir\main.cpp.s
 
 CMakeFiles/kmeans.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/kmeans.dir/main.cpp.obj.provides.build: CMakeFiles/kmeans.dir/main.cp
 
 CMakeFiles/kmeans.dir/kmeans.cpp.obj: CMakeFiles/kmeans.dir/flags.make
 CMakeFiles/kmeans.dir/kmeans.cpp.obj: ../kmeans.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\Projects\Programs\GitHub\kmeans\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kmeans.dir/kmeans.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\kmeans.dir\kmeans.cpp.obj -c "D:\Google Drive\Projects\Programs\GitHub\kmeans\kmeans.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kmeans.dir/kmeans.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\kmeans.dir\kmeans.cpp.obj -c "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\kmeans.cpp"
 
 CMakeFiles/kmeans.dir/kmeans.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kmeans.dir/kmeans.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\Projects\Programs\GitHub\kmeans\kmeans.cpp" > CMakeFiles\kmeans.dir\kmeans.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\kmeans.cpp" > CMakeFiles\kmeans.dir\kmeans.cpp.i
 
 CMakeFiles/kmeans.dir/kmeans.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kmeans.dir/kmeans.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\Projects\Programs\GitHub\kmeans\kmeans.cpp" -o CMakeFiles\kmeans.dir\kmeans.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\kmeans.cpp" -o CMakeFiles\kmeans.dir\kmeans.cpp.s
 
 CMakeFiles/kmeans.dir/kmeans.cpp.obj.requires:
 
@@ -118,7 +118,7 @@ kmeans.exe: CMakeFiles/kmeans.dir/build.make
 kmeans.exe: CMakeFiles/kmeans.dir/linklibs.rsp
 kmeans.exe: CMakeFiles/kmeans.dir/objects1.rsp
 kmeans.exe: CMakeFiles/kmeans.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Google Drive\Projects\Programs\GitHub\kmeans\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable kmeans.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable kmeans.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\kmeans.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/kmeans.dir/clean:
 .PHONY : CMakeFiles/kmeans.dir/clean
 
 CMakeFiles/kmeans.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Google Drive\Projects\Programs\GitHub\kmeans" "D:\Google Drive\Projects\Programs\GitHub\kmeans" "D:\Google Drive\Projects\Programs\GitHub\kmeans\cmake-build-debug" "D:\Google Drive\Projects\Programs\GitHub\kmeans\cmake-build-debug" "D:\Google Drive\Projects\Programs\GitHub\kmeans\cmake-build-debug\CMakeFiles\kmeans.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans" "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans" "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\cmake-build-debug" "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\cmake-build-debug" "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\cmake-build-debug\CMakeFiles\kmeans.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/kmeans.dir/depend
 

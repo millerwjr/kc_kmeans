@@ -2,8 +2,8 @@
 // Copyright 2017 Wyatt Miller
 //
 
-    #ifndef KMEANS_KMEANS_H
-    #define KMEANS_KMEANS_H
+    #ifndef KC_KMEANS_H
+    #define KC_KMEANS_H
 
     #include <fstream>
     #include <list>
@@ -66,4 +66,4 @@ namespace kc {
 
 }
 
-#endif //KMEANS_KMEANS_H
+#endif //KC_KMEANS_H

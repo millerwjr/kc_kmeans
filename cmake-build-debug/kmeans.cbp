@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug"/>
+				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kmeans">
-				<Option output="D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/kmeans.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug"/>
+				<Option output="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/kmeans.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 kmeans"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 kmeans"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kmeans/fast">
-				<Option output="D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/kmeans.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug"/>
+				<Option output="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/kmeans.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,43 +53,43 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 kmeans/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 kmeans/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug"/>
+				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug"/>
+				<Option working_dir="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.cpp">
+		<Unit filename="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kmeans.cpp">
 			<Option target="kmeans"/>
 		</Unit>
-		<Unit filename="D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.h">
+		<Unit filename="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kmeans.h">
 			<Option target="kmeans"/>
 		</Unit>
-		<Unit filename="D:/Google Drive/Projects/Programs/GitHub/kmeans/main.cpp">
+		<Unit filename="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/main.cpp">
 			<Option target="kmeans"/>
 		</Unit>
-		<Unit filename="D:/Google Drive/Projects/Programs/GitHub/kmeans/CMakeLists.txt">
+		<Unit filename="D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

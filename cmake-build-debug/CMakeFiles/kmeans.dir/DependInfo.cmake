@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Google Drive/Projects/Programs/GitHub/kmeans/kmeans.cpp" "D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/CMakeFiles/kmeans.dir/kmeans.cpp.obj"
-  "D:/Google Drive/Projects/Programs/GitHub/kmeans/main.cpp" "D:/Google Drive/Projects/Programs/GitHub/kmeans/cmake-build-debug/CMakeFiles/kmeans.dir/main.cpp.obj"
+  "D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kmeans.cpp" "D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/CMakeFiles/kmeans.dir/kmeans.cpp.obj"
+  "D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/main.cpp" "D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug/CMakeFiles/kmeans.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
