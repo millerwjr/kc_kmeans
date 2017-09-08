@@ -94,7 +94,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/kmeans
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/kc_kmeans
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/MinGW/bin/ld.exe
@@ -192,12 +192,6 @@ kc_kmeans_BINARY_DIR:STATIC=D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/c
 
 //Value Computed by CMake
 kc_kmeans_SOURCE_DIR:STATIC=D:/Google Drive/Projects/Programs/GitHub/kc_kmeans
-
-//Value Computed by CMake
-kmeans_BINARY_DIR:STATIC=D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/cmake-build-debug
-
-//Value Computed by CMake
-kmeans_SOURCE_DIR:STATIC=D:/Google Drive/Projects/Programs/GitHub/kc_kmeans
 
 
 ########################

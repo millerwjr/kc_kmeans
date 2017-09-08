@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kmeans.cpp
-kmeans.h
-D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kmeans.h
+D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kc_kmeans.cpp
+kc_kmeans.h
+D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kc_kmeans.h
 cstdlib
 -
 cmath
@@ -20,7 +20,7 @@ limits
 sstream
 -
 
-D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kmeans.h
+D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kc_kmeans.h
 fstream
 -
 list
@@ -33,6 +33,6 @@ vector
 D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/main.cpp
 iostream
 -
-kmeans.h
-D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kmeans.h
+kc_kmeans.h
+D:/Google Drive/Projects/Programs/GitHub/kc_kmeans/kc_kmeans.h
 

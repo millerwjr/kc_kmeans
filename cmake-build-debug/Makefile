@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = "D:\Google Drive\Projects\Programs\GitHub\kc_kmeans\cmake-bui
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files (x86)\JetBrains\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named kmeans
+# Target rules for targets named kc_kmeans
 
 # Build rule for target.
-kmeans: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 kmeans
-.PHONY : kmeans
+kc_kmeans: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 kc_kmeans
+.PHONY : kc_kmeans
 
 # fast build rule for target.
-kmeans/fast:
-	$(MAKE) -f CMakeFiles\kmeans.dir\build.make CMakeFiles/kmeans.dir/build
-.PHONY : kmeans/fast
+kc_kmeans/fast:
+	$(MAKE) -f CMakeFiles\kc_kmeans.dir\build.make CMakeFiles/kc_kmeans.dir/build
+.PHONY : kc_kmeans/fast
 
-kmeans.obj: kmeans.cpp.obj
+kc_kmeans.obj: kc_kmeans.cpp.obj
 
-.PHONY : kmeans.obj
+.PHONY : kc_kmeans.obj
 
 # target to build an object file
-kmeans.cpp.obj:
-	$(MAKE) -f CMakeFiles\kmeans.dir\build.make CMakeFiles/kmeans.dir/kmeans.cpp.obj
-.PHONY : kmeans.cpp.obj
+kc_kmeans.cpp.obj:
+	$(MAKE) -f CMakeFiles\kc_kmeans.dir\build.make CMakeFiles/kc_kmeans.dir/kc_kmeans.cpp.obj
+.PHONY : kc_kmeans.cpp.obj
 
-kmeans.i: kmeans.cpp.i
+kc_kmeans.i: kc_kmeans.cpp.i
 
-.PHONY : kmeans.i
+.PHONY : kc_kmeans.i
 
 # target to preprocess a source file
-kmeans.cpp.i:
-	$(MAKE) -f CMakeFiles\kmeans.dir\build.make CMakeFiles/kmeans.dir/kmeans.cpp.i
-.PHONY : kmeans.cpp.i
+kc_kmeans.cpp.i:
+	$(MAKE) -f CMakeFiles\kc_kmeans.dir\build.make CMakeFiles/kc_kmeans.dir/kc_kmeans.cpp.i
+.PHONY : kc_kmeans.cpp.i
 
-kmeans.s: kmeans.cpp.s
+kc_kmeans.s: kc_kmeans.cpp.s
 
-.PHONY : kmeans.s
+.PHONY : kc_kmeans.s
 
 # target to generate assembly for a file
-kmeans.cpp.s:
-	$(MAKE) -f CMakeFiles\kmeans.dir\build.make CMakeFiles/kmeans.dir/kmeans.cpp.s
-.PHONY : kmeans.cpp.s
+kc_kmeans.cpp.s:
+	$(MAKE) -f CMakeFiles\kc_kmeans.dir\build.make CMakeFiles/kc_kmeans.dir/kc_kmeans.cpp.s
+.PHONY : kc_kmeans.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -155,7 +155,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\kmeans.dir\build.make CMakeFiles/kmeans.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\kc_kmeans.dir\build.make CMakeFiles/kc_kmeans.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +164,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\kmeans.dir\build.make CMakeFiles/kmeans.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\kc_kmeans.dir\build.make CMakeFiles/kc_kmeans.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +173,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\kmeans.dir\build.make CMakeFiles/kmeans.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\kc_kmeans.dir\build.make CMakeFiles/kc_kmeans.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -182,12 +182,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... kmeans
-	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... kmeans.obj
-	@echo ... kmeans.i
-	@echo ... kmeans.s
+	@echo ... kc_kmeans
+	@echo ... edit_cache
+	@echo ... kc_kmeans.obj
+	@echo ... kc_kmeans.i
+	@echo ... kc_kmeans.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

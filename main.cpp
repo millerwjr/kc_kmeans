@@ -5,7 +5,7 @@
 
 
 #include <iostream>
-#include "kmeans.h"
+#include "kc_kmeans.h"
 
 int main() {
 
